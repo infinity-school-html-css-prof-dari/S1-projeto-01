@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>formulario</title>
+  </head>
+    <body>
+      <h1>Registro de idade dos alunos</h1>
+
+      <label for="iname">Seu nome:</label>
+      <input type="text" id="iname" name="name" /><br /><br />
+      <label for="iturma">Turma:</label>
+      <input type="text" id="iturma" name="turma" /><br /><br />
+
+      <label for="imensagem">Mensagem para o professor:</label><br />
+      <input type="text" name="mensagem" id="imensagem" size="50" /><br /><br />
+ 
+      <label for="iprof">Selecione o professor(a):</label>
+      <select name="professores" id="iprof">
+            <option value="Darielly">Darielly</option>
+            <option value="Gabriel">Gabriel</option>
+            <option value="Elisa">Elisa</option>
+            <option value="Daniel">Daniel</option>
+        </select>
+
+      <form action="mailto:prof@example.com" method="post">
+        <input type="submit" value="Enviar" />
+      </form><br>
+
+      <input type="checkbox" id="iaceito" name="aceito" />
+      <label for="iaceito"> Confirmo ser aluno(a) do curso</label>
+   
+      <p>Clique no botão "Enviar" para enviar sua memsagem.</p>
+ 
+</form>
+  </body>
+</html>
